@@ -5,12 +5,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
-    "start": "bun src/index.ts"
+    "start": "bun src/index.ts",
+    "preinstall": "npm install bun"
   },
   "main": "src/index.js",
   "dependencies": {
-    "elysia": "latest",
-    "bun": "latest"
+    "elysia": "latest"
   },
   "devDependencies": {
     "bun-types": "latest"
