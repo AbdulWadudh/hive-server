@@ -3,6 +3,7 @@
   "version": "1.0.50",
   "description": "Hive Server Build with Bun and Elysia",
   "scripts": {
+    "preinstall": "npm i -g bun@latest",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
     "start": "bun src/index.ts"
